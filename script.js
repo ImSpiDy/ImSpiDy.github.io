@@ -6,10 +6,9 @@ let digit = ["1",
 "6"]
 
 
-document.getElementsByClassName("dice").innerHTML = digit[Math.floor(Math.random() * digit.length)]
+// document.getElementsByClassName("dice").innerHTML = digit[Math.floor(Math.random() * digit.length)]
 
 let btn = document.getElementById("btn");
-
 
 function xyz() {
   let index = Math.floor(Math.random() * digit.length)
