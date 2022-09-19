@@ -11,8 +11,8 @@ document.getElementsByClassName("dice").innerHTML = digit[Math.floor(Math.random
 let btn = document.getElementById("btn");
 
 
-function xyz() {
+function RollTheDice() {
   let index = Math.floor(Math.random() * digit.length)
   document.getElementsByClassName("dice")[0].innerHTML = digit[index]
 }
-btn.addEventListener("click", xyz)
+btn.addEventListener("click", RollTheDice())
